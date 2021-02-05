@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         var helloText : TextView = findViewById(R.id.textView)
         var helloButton : Button = findViewById(R.id.tapHere)
         helloButton.setOnClickListener{
-            helloText.text = "プッシュした"
+            helloText.text = "押した"
         }
 
     }
