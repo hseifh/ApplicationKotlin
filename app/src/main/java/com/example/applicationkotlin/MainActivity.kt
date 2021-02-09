@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 helloText.text = "push️"
             }
-            //helloText.text = "push"
+            /*helloText.text = "push"*/
         }
 
     }
