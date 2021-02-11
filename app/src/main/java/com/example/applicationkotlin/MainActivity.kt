@@ -16,12 +16,16 @@ class MainActivity : AppCompatActivity() {
         var helloText: TextView = findViewById(R.id.textView)
         var helloButton: Button = findViewById(R.id.tapHere)
         helloButton.setOnClickListener {
-            if (helloText.text.equals("push️")) {
+            if (helloText.text == "push️") {
                 helloText.text = "押した"
+                println("押した")
             } else {
                 helloText.text   = "push️"
+                println("push")
             }
-            /*helloText.text = "push*/
+
+
+
         }
     }
 }
