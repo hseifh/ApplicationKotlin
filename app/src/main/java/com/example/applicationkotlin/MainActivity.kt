@@ -13,16 +13,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        var helloText : TextView = findViewById(R.id.textView)
-        var helloButton : Button = findViewById(R.id.tapHere)
-        helloButton.setOnClickListener{
-            if(helloText.text.equals("push️")){
+        var helloText: TextView = findViewById(R.id.textView)
+        var helloButton: Button = findViewById(R.id.tapHere)
+        helloButton.setOnClickListener {
+            if (helloText.text.equals("push️")) {
                 helloText.text = "押した"
-            }else{
-                helloText.text = "push️"
+            } else {
+                helloText.text   = "push️"
             }
-            /*helloText.text = "push"*/
+            /*helloText.text = "push*/
         }
-
     }
 }
