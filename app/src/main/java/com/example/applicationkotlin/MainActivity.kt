@@ -20,9 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding.tapHere.setOnClickListener {
             binding.textView.text = "ボタンがタップされました"
         }
-
-
-
+        
         /*
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
