@@ -6,8 +6,6 @@ import android.widget.Button
 import android.widget.TextView
 import com.example.applicationkotlin.databinding.ActivityMainBinding
 
-//import com.example.applicationkotlin
-
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding.tapHere.setOnClickListener {
             binding.textView.text = "ボタンがタップされました"
         }
-        
+
         /*
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
