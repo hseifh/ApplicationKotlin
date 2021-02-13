@@ -10,6 +10,11 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
 
+
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        /*
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         var view = binding.root
@@ -18,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding.tapHere.setOnClickListener {
             binding.textView.text = "ボタンがタップされました"
         }
+        */
 
         /*
         super.onCreate(savedInstanceState)

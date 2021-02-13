@@ -81,7 +81,9 @@
         android:layout_height="wrap_content"
         android:text="@string/janken_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="43dp" />
+        app:layout_constraintBottom_toTopOf="@+id/choki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
