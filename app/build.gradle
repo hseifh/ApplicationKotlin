@@ -28,9 +28,11 @@ android {
 
     //////////////////////////////////////////////////
     //編集
+
     buildFeatures{
         viewBinding = true
     }
+
 
     dataBinding {
         enabled true
