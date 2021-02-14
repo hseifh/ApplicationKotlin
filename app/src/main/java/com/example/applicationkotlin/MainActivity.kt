@@ -9,9 +9,14 @@ import com.example.applicationkotlin.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        
+
+
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+
+
 
         /*
         super.onCreate(savedInstanceState)
@@ -19,10 +24,12 @@ class MainActivity : AppCompatActivity() {
         var view = binding.root
         setContentView(view)
 
+
         binding.tapHere.setOnClickListener {
             binding.textView.text = "ボタンがタップされました"
         }
         */
+
 
         /*
         super.onCreate(savedInstanceState)
