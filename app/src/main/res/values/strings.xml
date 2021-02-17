@@ -4,4 +4,7 @@
     <string name="tap_here">ここをタップ！</string>
     <string name="janken_text">じゃん・けん・・・</string>
     <string name="back_text">戻る</string>
+    <string name="result_win">あなたの勝ちです</string>
+    <string name="result_draw">あいこです</string>
+    <string name="result_lose">あなたの負けです</string>
 </resources>

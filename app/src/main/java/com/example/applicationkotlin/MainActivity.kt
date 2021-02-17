@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    
+
         /*
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
