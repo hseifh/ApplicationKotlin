@@ -59,6 +59,5 @@ class ResultActivity : AppCompatActivity() {
         //戻るボタン
         binding.backButton.setOnClickListener{ finish() }
 
-        
     }
 }

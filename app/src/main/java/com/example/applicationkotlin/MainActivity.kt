@@ -4,8 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.TextView
 import com.example.applicationkotlin.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,20 +16,6 @@ class MainActivity : AppCompatActivity() {
         binding.gu.setOnClickListener { onJankenButtonTapped(it) }
         binding.choki.setOnClickListener{ onJankenButtonTapped(it) }
         binding.pa.setOnClickListener{ onJankenButtonTapped(it) }
-
-
-
-
-
-
-        binding.tapHere.setOnClickListener {
-            //binding.textView.text = "ボタンがタップされました"
-            //println("ランダムクラス")
-            //println("Math.random()" + Math.random())
-            //println("(Math.random() * 3)" + (Math.random() * 3))
-            println("(Math.random() * 3).toInt()" + (Math.random() * 3).toInt())
-        }
-
     }
 
     fun onJankenButtonTapped(view: View?){
@@ -39,38 +23,46 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("MY_HAND",view?.id)
         startActivity(intent)
     }
+}
 
-
-
-        /*
-        super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        var view = binding.root
-        setContentView(view)
+/*
         binding.tapHere.setOnClickListener {
-            binding.textView.text = "ボタンがタップされました"
+            //binding.textView.text = "ボタンがタップされました"
+            //println("ランダムクラス")
+            //println("Math.random()" + Math.random())
+            //println("(Math.random() * 3)" + (Math.random() * 3))
+            println("(Math.random() * 3).toInt()" + (Math.random() * 3).toInt())
         }
         */
 
-
-
-    /*
-    super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main)
-    println("seihfgisehgfiruwheureur")
-
-    var helloText: TextView = findViewById(R.id.textView)
-    var helloButton: Button = findViewById(R.id.tapHere)
-
-    helloButton.setOnClickListener {
-        if (helloText.text == "push️") {
-            helloText.text = "押した"
-            println("押した")
-            //for (i in 0..200) println(i)
-        } else {
-            helloText.text   = "push️"
-            println("push")
-        }
-    }
-    */
+/*
+super.onCreate(savedInstanceState)
+binding = ActivityMainBinding.inflate(layoutInflater)
+var view = binding.root
+setContentView(view)
+binding.tapHere.setOnClickListener {
+    binding.textView.text = "ボタンがタップされました"
 }
+*/
+
+
+
+/*
+super.onCreate(savedInstanceState)
+setContentView(R.layout.activity_main)
+println("seihfgisehgfiruwheureur")
+
+var helloText: TextView = findViewById(R.id.textView)
+var helloButton: Button = findViewById(R.id.tapHere)
+
+helloButton.setOnClickListener {
+    if (helloText.text == "push️") {
+        helloText.text = "押した"
+        println("押した")
+        //for (i in 0..200) println(i)
+    } else {
+        helloText.text   = "push️"
+        println("push")
+    }
+}
+*/
