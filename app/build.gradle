@@ -1,9 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-//////////////////////////////////////////////////
-apply plugin: 'kotlin-kapt'
-//////////////////////////////////////////////////
+apply plugin: 'kotlin-kapt' //追加
 
 android {
     compileSdkVersion 29
@@ -26,20 +24,10 @@ android {
         }
     }
 
-    //////////////////////////////////////////////////
-    //編集
-
+    //追加
     buildFeatures{
         viewBinding = true
     }
-
-
-    /*
-    dataBinding {
-        enabled true
-    }
-     */
-    //////////////////////////////////////////////////
 
 }
 
