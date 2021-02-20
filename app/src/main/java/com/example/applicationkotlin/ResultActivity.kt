@@ -3,6 +3,7 @@ package com.example.applicationkotlin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.applicationkotlin.databinding.ActivityResultBinding
+//import com.fsgieuhgie.applicationkotlin.databinding.ActivityResultBinding
 
 class ResultActivity : AppCompatActivity() {
     private lateinit var binding: ActivityResultBinding
