@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.applicationkotlin">
+    <!-- 「com.example」の名前が原因で、GooglePlayにアップロード出来ない 2021年3月7日 -->
 
     <application
         android:allowBackup="true"
